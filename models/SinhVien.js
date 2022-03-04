@@ -7,8 +7,11 @@ function SinhVien() {
     this.soDienThoai ='';
     this.diemToan = '';
     this.diemLy = '';
-    this.diemHoa = '';
+    this.diemHoa = '';//confict: xung đột code 
     this.xepLoai = function () {
         console.log('dev b code hàm xếp loại!');
+    }
+    this.tinhDiemTrungBinh = function () {
+        console.log('Tính điểm trung bình!');
     }
 }
